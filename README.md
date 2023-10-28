@@ -5,7 +5,7 @@ The map() method in JavaScript is a higher-order function used to transform elem
 It takes a callback function as an argument and applies that function to each item in the array, creating a new array with the results. 
 
 ### The syntax is:
->js``` const newArray = array.map(callback(element, index, array) => {
+```js const newArray = array.map(callback(element, index, array) => {
   // return transformed element
 }); ```
 
